@@ -1,4 +1,4 @@
-SENSEX PRICE PREDICTION USING ML
+[FINTECH PIONEERS.pdf](https://github.com/user-attachments/files/16444785/FINTECH.PIONEERS.pdf)SENSEX PRICE PREDICTION USING ML
 
 Overview
 
@@ -43,4 +43,7 @@ Heat Map for Feature Engineering :
 Screenshot of Web Application 
 
 ![image](https://github.com/user-attachments/assets/97a01eb7-eefe-4db4-bb69-6bbf3ba6d403)
+
+
+[FINTECH PIONEERS.pdf](https://github.com/user-attachments/files/16444783/FINTECH.PIONEERS.pdf)
 

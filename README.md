@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+SENSEX PRICE PREDICTION USING ML
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+The Financial Forecasting Application is a comprehensive tool designed to predict daily Sensex changes based on weather conditions. The application utilizes advanced machine learning techniques and integrates a modern web stack to deliver accurate financial forecasts.
 
-In the project directory, you can run:
+Technologies Used
+Frontend: React
+Backend: Flask
+Machine Learning Model: XGBoost
+Weather Data: Open Meteo API
+Financial Data: Sensex
+Features
+Predictive Analysis: Predicts daily Sensex changes using weather data from the Open Meteo API.
+User Interface: Provides an intuitive graphical user interface (GUI) developed with React.
+Speech Integration: Includes speech recognition and text-to-speech functionalities for enhanced user interaction.
+Dynamic Data Handling: Efficiently processes and scales data to improve prediction accuracy.
 
-### `npm start`
+Usage
+Frontend Interaction:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The React frontend provides a user-friendly interface where users can input weather data and view the predicted Sensex changes.
+Backend Operations:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Flask backend handles API requests, processes the data, and interacts with the XGBoost model to generate predictions.
+Speech Integration:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use the integrated speech recognition and text-to-speech features for a hands-free experience.
+Development
+Model Training:
+The XGBoost model is trained using historical weather and financial data to predict daily Sensex changes.
+Data Handling:
+Data from Sensex and Open Meteo API are processed and scaled to improve model performance and accuracy.
